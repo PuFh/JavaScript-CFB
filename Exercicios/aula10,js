@@ -1,0 +1,16 @@
+//Operardor Ternário
+
+let num =11
+/*
+let res = num%2
+
+if(res==0){
+    console.log("O número "+num+" é par")
+}else{
+    console.log("O número "+num+" é impar")
+}*/
+
+res=(!(num%2) ?"Par" : "Impar")
+console.log(res)
+
+// Teste Lógico ? se verdadeiro : se falso
