@@ -1,15 +1,17 @@
 //FUNÇÕES parametrizadas em Javascript #P3
 const valor_padrao=0
 
-let valor = 0
-
-console.log(valor)
-
 function add(v){
-    return valor+v
+    valor+=v
 }
 
-valor=add(10)
+let valor=0
+console.log(valor)
+
+add(10)
+console.log(valor)
+
+add(5)
 console.log(valor)
 
 
@@ -22,4 +24,3 @@ function soma(n1=valor_padrao,n2=valor_padrao){
 
 }
 let resultado_soma = soma(10,5)
-console.log(resultado_soma)
