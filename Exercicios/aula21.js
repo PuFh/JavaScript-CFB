@@ -1,5 +1,5 @@
 //FUNÇÕES com retorno em Javascript #P2 
-
+let num
 function canal(){
     let n1 = 10
     let n2 = 2
@@ -10,5 +10,5 @@ function canal(){
         return"O valor é Impar"
     }
 }
-let num = canal()
+num = canal()
 console.log(num)

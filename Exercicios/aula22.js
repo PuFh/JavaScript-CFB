@@ -2,7 +2,7 @@
 const valor_padrao=0
 
 function add(v){
-    valor+=v
+    valor=valor+v//ou valor += v
 }
 
 let valor=0
