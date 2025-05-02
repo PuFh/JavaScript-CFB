@@ -1,8 +1,11 @@
 //Parâmetros REST em funções Javascript #P4
 
-let p_valor = 0
-function soma(...valores[n1 = p_valor]){
-    return valores.length
-}
+function soma(...valores){
+    let res=0 
 
-console.log(soma(5,8))
+    for(let v of valores){
+        res+=v
+    }
+    return res
+}
+console.log(soma(10,5,8))
